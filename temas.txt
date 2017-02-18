@@ -1,0 +1,3 @@
+oh-my-zsh
+Tema gtk = adapta
+icons = moka
