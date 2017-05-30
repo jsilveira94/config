@@ -8,7 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
-DEFAULT_USER=juli@juli-ppc
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -93,7 +93,7 @@ alias fuck='sudo $(fc -nl -1)'
 PATH=/opt/android-studio/bin:$PATH
 
 
-alias vpnstart='/usr/local/pulse/PulseClient.sh -h vpn.udc.es -u j.silveira -U https://vpn.udc.es/estudantes -r Estudantes'
+alias vpnstart='/usr/local/pulse/PulseClient.sh -h vpn.udc.es -u $USUARIO$ -U https://vpn.udc.es/estudantes -r Estudantes'
 alias vpnstop='/usr/local/pulse/PulseClient.sh -K'
 
 MAVEN_HOME=/opt/apache-maven-3.3.9
